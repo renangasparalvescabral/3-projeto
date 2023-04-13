@@ -11,15 +11,77 @@ Orange: hsl(25, 97%, 53%)
 
 - Font size (paragraph): 15px
 
--Family: [Overpass](https://fonts.google.com/specimen/Overpass)
+-Family: [Overpass]
+(https://fonts.google.com/specimen/Overpass)
 - Weights: 400, 700
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
 
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.container-1{
+    display: block;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -250px;
+    background-color:hsl(217, 26%, 17%);
+    border-radius: 15px;
+}
+
+.container-1 img{
+    border-radius: 50%;
+    background-color: hsl(212, 20%, 25%);
+    padding: 15px;
+    margin-left: 50px;
+    transform: translate(0px, 60px);
+}
+
+.container-1 h1{
+    color: white;
+    margin-left: 50px;
+    transform: translate(0px, 70px);
+}
+
+.container-1 p{
+    color: hsl(217, 12%, 63%);
+    font-size: 20px;
+    margin-left: 50px;
+    transform: translate(0, 80px);
+}
+
+.botoes .btns{
+    color: hsl(216, 12%, 54%);
+    border-radius: 45%;
+    border-width: 0px;
+    background-color: hsl(212, 20%, 25%);
+    transform: translate( 0px, 80px);
+    font-size: 15px;
+    margin: 20px;
+    padding: 16px;
+}
+
+.container-1 .btn-enviar{
+    border-radius: 15px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    width: 420px;
+    height: 45px;
+    font-size: 18px;
+    transform: translate(40px, 85px);
+    border-width: 0px;
+}
 
 .attribution {
-     font-size: 11px; text-align: center; 
+     font-size: 11px;
+     text-align: center; 
 }
 
 .attribution a { 
